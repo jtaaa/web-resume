@@ -1,13 +1,28 @@
 import React from 'react';
-import { HeaderContainer } from './elements';
+import Box from 'components/Box';
+import ExternalLink from 'components/ExternalLink';
 import Canon from 'components/text/Canon';
-import Body from 'components/text/Body';
+import { HeaderContainer } from './elements';
 
 const Header = () => {
   return (
-    <HeaderContainer>
+    <HeaderContainer textAlign="center">
       <Canon>Joshua Allum</Canon>
-      <Body>Lorem ipsum delor as da slf</Body>
+      <Box display="flex" justifyContent="center">
+        <ExternalLink href="https://jallum.xyz/">jallum.xyz</ExternalLink>
+        <ExternalLink pl={3} href="mailto:joshuatallum@gmail.com">
+          joshuatallum
+        </ExternalLink>
+        <ExternalLink pl={3} href="tel:+16477814107">
+          647-781-4107
+        </ExternalLink>
+      </Box>
+      <Box display="flex" justifyContent="center">
+        <ExternalLink href="https://github.com/jtaaa">jtaaa</ExternalLink>
+        <ExternalLink pl={3} href="https://linkedin.com/in/joshua-allum/">
+          joshua-allum
+        </ExternalLink>
+      </Box>
     </HeaderContainer>
   );
 };
