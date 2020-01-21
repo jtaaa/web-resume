@@ -9,7 +9,7 @@ const App: React.FC = () => {
   return (
     <body className="A5">
       <section className="sheet">
-        <Box>
+        <Box p={3}>
           <Header />
           <Body />
           <Footer />
