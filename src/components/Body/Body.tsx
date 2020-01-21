@@ -1,7 +1,13 @@
 import React from 'react';
+import Box from 'components/Box';
+import Experience from './Experience';
 
-const Header = () => {
-  return <div></div>;
+const Body = () => {
+  return (
+    <Box>
+      <Experience />
+    </Box>
+  );
 };
 
-export default Header;
+export default Body;
