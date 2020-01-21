@@ -6,5 +6,5 @@ export const Logo = styled.img<LogoProps>`
   ${space}
   ${layout}
 
-  width: 48px;
+  width: 32px;
 `;
