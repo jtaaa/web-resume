@@ -9,7 +9,7 @@ type HeadingProps = {
   techStack: string;
   year: string;
 };
-const Heading = ({ title, techStack, year }: HeadingProps) => {
+const Heading: React.FC<HeadingProps> = ({ title, techStack, year }) => {
   return (
     <Box display="flex" alignItems="baseline" justifyContent="space-between">
       <Box display="flex" alignItems="baseline">

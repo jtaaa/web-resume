@@ -12,7 +12,13 @@ type HeadingProps = {
   logoSrc: string;
   logoAlt: string;
 };
-const Heading = ({ company, period, role, logoSrc, logoAlt }: HeadingProps) => {
+const Heading: React.FC<HeadingProps> = ({
+  company,
+  period,
+  role,
+  logoSrc,
+  logoAlt,
+}) => {
   return (
     <Box display="flex" alignItems="center">
       <Box flex={1}>

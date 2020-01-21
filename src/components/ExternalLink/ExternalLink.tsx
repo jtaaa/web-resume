@@ -5,11 +5,11 @@ type ExternalLinkProps = ExternalLinkContainerProps & {
   href: string;
   children: React.ReactNode;
 };
-const ExternalLink = ({
+const ExternalLink: React.FC<ExternalLinkProps> = ({
   href,
   children,
   ...containerProps
-}: ExternalLinkProps) => {
+}) => {
   return (
     <ExternalLinkContainer
       {...containerProps}

@@ -6,7 +6,7 @@ import GlobalStyle from './GlobalStyle';
 type ThemeDecoratorProps = {
   children: React.ReactNode;
 };
-const ThemeDecorator = ({ children }: ThemeDecoratorProps) => {
+const ThemeDecorator: React.FC<ThemeDecoratorProps> = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       {children}
