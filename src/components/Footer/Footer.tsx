@@ -1,7 +1,14 @@
 import React from 'react';
+import Box from 'components/Box';
 
-const Header = () => {
-  return <div></div>;
+import Achievements from './Achievements';
+
+const Footer = () => {
+  return (
+    <Box>
+      <Achievements />
+    </Box>
+  );
 };
 
-export default Header;
+export default Footer;
