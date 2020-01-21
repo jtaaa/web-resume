@@ -1,6 +1,6 @@
 import React from 'react';
 import Box from 'components/Box';
-import DoublePica from 'components/text/DoublePica';
+import Trafalgar from 'components/text/Trafalgar';
 
 import Cognite from './Cognite';
 import IBM from './IBM';
@@ -10,7 +10,7 @@ import Teleios from './Teleios';
 const Experience = () => {
   return (
     <Box>
-      <DoublePica>Work Experience</DoublePica>
+      <Trafalgar>Work Experience</Trafalgar>
       <Cognite />
       <IBM />
       <Massy />
