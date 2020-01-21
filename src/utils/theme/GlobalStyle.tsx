@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components/macro';
 
 const GlobalStyle = createGlobalStyle`
+  @import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
 /* Button Normalization */
 /**
   * 1. Change the font styles in all browsers.
@@ -68,6 +69,7 @@ const GlobalStyle = createGlobalStyle`
   html, body, #root {
     height: 100%;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
   }
 `;
 

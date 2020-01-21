@@ -4,8 +4,8 @@ import Box from 'components/Box';
 const Body = styled(Box)``;
 
 Body.defaultProps = {
-  fontSize: [2, 3, 4],
-  lineHeight: [2, 3, 4],
+  fontSize: 1,
+  lineHeight: 1,
 };
 
 export default Body;
