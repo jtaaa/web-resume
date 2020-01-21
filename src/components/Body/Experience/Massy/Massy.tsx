@@ -11,7 +11,7 @@ const Massy = () => {
       <Heading
         company="Massy Technologies InfoCom"
         period="May-Aug 2018"
-        role="Software Dev/Data Science Assistant"
+        role="Software Dev/Data Science Asst."
         logoSrc={MassyLogo}
         logoAlt="Massy Technologies InfoCom logo"
       />

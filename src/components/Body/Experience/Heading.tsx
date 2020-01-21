@@ -21,7 +21,8 @@ const Heading: React.FC<HeadingProps> = ({
 }) => {
   return (
     <Box display="flex" alignItems="center" pt={1}>
-      <Box flex={1}>
+      <Logo src={logoSrc} alt={logoAlt} />
+      <Box flex={1} ml={2}>
         <Box display="flex" alignItems="baseline">
           <DoublePica>{company}</DoublePica>
           <Body ml={2} fontSize={0}>
@@ -30,7 +31,6 @@ const Heading: React.FC<HeadingProps> = ({
         </Box>
         <GreatPrimer>{role}</GreatPrimer>
       </Box>
-      <Logo src={logoSrc} alt={logoAlt} />
     </Box>
   );
 };

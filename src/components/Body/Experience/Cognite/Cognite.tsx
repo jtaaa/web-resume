@@ -2,7 +2,7 @@ import React from 'react';
 import Box from 'components/Box';
 import Body from 'components/text/Body';
 import Heading from '../Heading';
-import CogniteLogo from './cognite-logo.jpeg';
+import CogniteLogo from './cognite-logo.png';
 import ExternalLink from 'components/ExternalLink';
 import Highlight from 'components/text/Highlight';
 
