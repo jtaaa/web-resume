@@ -13,14 +13,14 @@ const Body = () => {
     <Box>
       <Box display="flex">
         <Experience flex={1} />
-        <Box width={210} ml={2}>
+        <Box width={275} ml={3}>
           <Education />
-          <Achievements />
-          <Skillset />
-          <Clubs />
+          <Achievements pt={2} />
+          <Skillset pt={2} />
+          <Clubs pt={2} />
         </Box>
       </Box>
-      <Projects pt={1} />
+      <Projects pt={3} />
     </Box>
   );
 };

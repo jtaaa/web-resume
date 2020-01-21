@@ -4,8 +4,8 @@ import Box from 'components/Box';
 const Trafalgar = styled(Box)``;
 
 Trafalgar.defaultProps = {
-  fontSize: 4,
-  lineHeight: 4,
+  fontSize: 5,
+  lineHeight: 5,
 };
 
 export default Trafalgar;

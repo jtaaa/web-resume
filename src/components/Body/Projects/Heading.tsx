@@ -23,7 +23,7 @@ const Heading: React.FC<HeadingProps> = ({ title, techStack, year, href }) => {
         <DoublePica>
           {href ? <ExternalLink href={href}>{title}</ExternalLink> : title}
         </DoublePica>
-        <Body ml={2} fontSize={0}>
+        <Body ml={2} fontSize={2}>
           {techStack}
         </Body>
       </Box>

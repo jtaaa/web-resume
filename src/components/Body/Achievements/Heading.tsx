@@ -10,8 +10,8 @@ type HeadingProps = {
 const Heading: React.FC<HeadingProps> = ({ title, year }) => {
   return (
     <Box display="flex" alignItems="baseline" justifyContent="space-between">
-      <DoublePica fontSize={1}>{title}</DoublePica>
-      <GreatPrimer fontSize={1}>{year}</GreatPrimer>
+      <DoublePica fontSize={3}>{title}</DoublePica>
+      <GreatPrimer fontSize={3}>{year}</GreatPrimer>
     </Box>
   );
 };

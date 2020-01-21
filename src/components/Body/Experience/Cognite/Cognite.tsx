@@ -11,7 +11,7 @@ const Cognite = () => {
     <Box>
       <Heading
         company="Cognite AS"
-        period="Sep-Dec 2019"
+        period="Oslo, Norway. Sep-Dec 2019"
         role="Front-end Engineer"
         logoSrc={CogniteLogo}
         logoAlt="Cognite AS logo"

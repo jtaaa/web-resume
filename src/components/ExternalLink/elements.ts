@@ -5,7 +5,7 @@ export type ExternalLinkContainerProps = SpaceProps;
 export const ExternalLinkContainer = styled.a<SpaceProps>`
   ${space}
 
-  &:visited {
+  &, &:visited {
     color: inherit;
   }
 `;

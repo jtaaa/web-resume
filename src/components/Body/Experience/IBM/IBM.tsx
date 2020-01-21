@@ -10,7 +10,7 @@ const IBM = () => {
     <Box>
       <Heading
         company="IBM Canada Toronto Labs"
-        period="Jan-May 2019"
+        period="Toronto, Canada. Jan-May 2019"
         role="Cloud Platform Project Developer"
         logoSrc={IBMLogo}
         logoAlt="IBM logo"

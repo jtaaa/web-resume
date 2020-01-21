@@ -12,8 +12,8 @@ type AchievementsProps = BoxProps;
 const Achievements: React.FC<AchievementsProps> = boxProps => {
   return (
     <Box {...boxProps}>
-      <Trafalgar pt={1}>Achievements</Trafalgar>
-      <Box>
+      <Trafalgar>Achievements</Trafalgar>
+      <Box pt={1}>
         <WatsonBuildFinalist />
         <NationalOpenScholarship />
         <ChiefScoutAward />

@@ -6,8 +6,8 @@ const GreatPrimer = styled(Box)`
 `;
 
 GreatPrimer.defaultProps = {
-  fontSize: 2,
-  lineHeight: 2,
+  fontSize: 3,
+  lineHeight: 3,
   letterSpacing: '1px',
 };
 

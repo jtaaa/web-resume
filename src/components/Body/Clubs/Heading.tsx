@@ -12,10 +12,10 @@ type HeadingProps = {
 const Heading: React.FC<HeadingProps> = ({ name, period, href }) => {
   return (
     <Box display="flex" justifyContent="space-between" alignItems="baseline">
-      <DoublePica fontSize={1}>
+      <DoublePica fontSize={3} pt={1}>
         {href ? <ExternalLink href={href}>{name}</ExternalLink> : name}
       </DoublePica>
-      <GreatPrimer fontSize={1}>{period}</GreatPrimer>
+      <GreatPrimer fontSize={3}>{period}</GreatPrimer>
     </Box>
   );
 };
