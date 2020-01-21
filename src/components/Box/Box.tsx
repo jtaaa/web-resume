@@ -1,4 +1,4 @@
-import styled from 'styled-components/macro';
+import styled, { StyledComponentProps } from 'styled-components/macro';
 import {
   space,
   SpaceProps,
@@ -16,13 +16,19 @@ import {
   FlexboxProps,
 } from 'styled-system';
 
-export type BoxProps = SpaceProps &
-  LayoutProps &
-  ColorProps &
-  TypographyProps &
-  BorderProps &
-  ShadowProps &
-  FlexboxProps;
+export type BoxProps = StyledComponentProps<
+  'div',
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  any,
+  SpaceProps &
+    LayoutProps &
+    ColorProps &
+    TypographyProps &
+    BorderProps &
+    ShadowProps &
+    FlexboxProps,
+  never
+>;
 const Box = styled.div<BoxProps>`
   ${space}
   ${layout}

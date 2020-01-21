@@ -1,13 +1,14 @@
 import React from 'react';
-import Box from 'components/Box';
+import Box, { BoxProps } from 'components/Box';
 import Trafalgar from 'components/text/Trafalgar';
 
 import WatsonBuildFinalist from './WatsonBuildFinalist';
 import TenthOverallCAPE from './TenthOverallCAPE';
 
-const Achievements = () => {
+type AchievementsProps = BoxProps;
+const Achievements: React.FC<AchievementsProps> = boxProps => {
   return (
-    <Box>
+    <Box {...boxProps}>
       <Trafalgar>Achievements</Trafalgar>
       <Box>
         <WatsonBuildFinalist />
