@@ -13,7 +13,7 @@ const STAT230CourseNotes = () => {
         href="https://github.com/jtaaa/STAT230-Course-Notes"
       />
       <Body>
-        Creating fully-fledged book including proofs, theorems, graphs and
+        • Created fully-fledged book including proofs, theorems, graphs and
         original examples, for STAT 230 at UW.
       </Body>
     </Box>

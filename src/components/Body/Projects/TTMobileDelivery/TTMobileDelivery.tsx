@@ -14,7 +14,7 @@ const TTMobileDelivery = () => {
         href="https://github.com/SYSTT/tntmobiledelivery"
       />
       <Body>
-        <Highlight>Developed</Highlight> and <Highlight>launched</Highlight>{' '}
+        • <Highlight>Developed</Highlight> and <Highlight>launched</Highlight>{' '}
         solution to allow users to buy and trade iPhones safely, quickly and
         easily in T&T.
       </Body>

@@ -17,23 +17,23 @@ const Cognite = () => {
         logoAlt="Cognite AS logo"
       />
       <Body>
-        Worked daily on front-end of production application{' '}
+        • Worked daily on front-end of production application{' '}
         <ExternalLink href="https://insight.cogniteapp.com/">
           Asset Data Insight
         </ExternalLink>{' '}
         with monthly sprints and rollouts.
       </Body>
       <Body>
-        Implemented <Highlight>design curve overlays on scatterplots</Highlight>{' '}
-        with option to upload CSV or manually enter X-Y pairs, solving
-        company-wide{' '}
+        • Implemented{' '}
+        <Highlight>design curve overlays on scatterplots</Highlight> with option
+        to upload CSV or manually enter X-Y pairs, solving company-wide{' '}
         <ExternalLink href="https://www.enggcyclopedia.com/2011/09/pump-performance-curves/">
           pump performance curve
         </ExternalLink>{' '}
         use case.
       </Body>
       <Body>
-        Significantly improved <Highlight>development experience</Highlight>,{' '}
+        • Significantly improved <Highlight>development experience</Highlight>,{' '}
         <Highlight>linting</Highlight> and{' '}
         <Highlight>testing utilities</Highlight> of custom graphing library{' '}
         <ExternalLink href="https://github.com/cognitedata/griff-react">

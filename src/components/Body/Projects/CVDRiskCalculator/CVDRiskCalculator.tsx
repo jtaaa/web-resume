@@ -15,14 +15,14 @@ const CVDRiskCalculator = () => {
         href="https://github.com/jtaaa/CVD-Risk-Calculator-Backend"
       />
       <Body>
-        Collaborated with Prof. Amalia Hosein of{' '}
+        • Collaborated with Prof. Amalia Hosein of{' '}
         <ExternalLink href="https://utt.edu.tt/">
           University of Trinidad and Tobago
         </ExternalLink>{' '}
         as part of her doctorate thesis.
       </Body>
       <Body>
-        Implemented Prof. Hosein&apos;s{' '}
+        • Implemented Prof. Hosein&apos;s{' '}
         <Highlight>risk calculation algorithm</Highlight> in NodeJS API and
         developed{' '}
         <ExternalLink href="https://github.com/jtaaa/CVD-Risk-Calculator-Frontend">
@@ -31,7 +31,7 @@ const CVDRiskCalculator = () => {
         .
       </Body>
       <Body>
-        Backend API is <Highlight>in use</Highlight> by a mobile app developed
+        • Backend API is <Highlight>in use</Highlight> by a mobile app developed
         by UTT undergraduate students as a term project.
       </Body>
     </Box>

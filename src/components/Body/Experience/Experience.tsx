@@ -5,7 +5,7 @@ import Trafalgar from 'components/text/Trafalgar';
 import Cognite from './Cognite';
 import IBM from './IBM';
 import Massy from './Massy';
-import Teleios from './Teleios';
+// import Teleios from './Teleios';
 
 type ExperienceProps = BoxProps;
 const Experience: React.FC<ExperienceProps> = boxProps => {

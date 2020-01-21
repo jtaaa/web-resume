@@ -11,12 +11,12 @@ const Massy = () => {
       <Heading
         company="Massy Technologies InfoCom"
         period="May-Aug 2018"
-        role="Software Developer and Data Science Assistant"
+        role="Software Dev/Data Science Assistant"
         logoSrc={MassyLogo}
         logoAlt="Massy Technologies InfoCom logo"
       />
       <Body>
-        Constructed data pipelines using techniques such as{' '}
+        • Constructed data pipelines using{' '}
         <Highlight>Market Basket Analysis</Highlight> and{' '}
         <Highlight>Cluster Analysis</Highlight>. Integrated pipeline with Massy
         Stores&apos; expansion into online sales to{' '}
@@ -24,7 +24,7 @@ const Massy = () => {
         <Highlight>recommend items</Highlight>.
       </Body>
       <Body>
-        Produced statistics and tangible metrics of inter-branch performance
+        • Produced statistics and tangible metrics of inter-branch performance
         based on large datasets (several GB) of transactions using Pandas,
         Plotly, and Watson.
       </Body>

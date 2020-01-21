@@ -3,6 +3,7 @@ import Box, { BoxProps } from 'components/Box';
 import Trafalgar from 'components/text/Trafalgar';
 import Body from 'components/text/Body';
 import Highlight from 'components/text/Highlight';
+import DoublePica from 'components/text/DoublePica';
 
 type EducationProps = BoxProps;
 const Education: React.FC<EducationProps> = boxProps => {
@@ -10,7 +11,9 @@ const Education: React.FC<EducationProps> = boxProps => {
     <Box {...boxProps}>
       <Trafalgar>Education</Trafalgar>
       <Box>
-        <Body>Honours Computer Science Co-op</Body>
+        <DoublePica fontSize={2} pt={1}>
+          Honours Computer Science Co-op
+        </DoublePica>
         <Body fontSize={0}>University of Waterloo, expected Winter 2021</Body>
         <Body
           display="flex"
@@ -18,7 +21,7 @@ const Education: React.FC<EducationProps> = boxProps => {
           alignItems="baseline"
         >
           <Highlight>Cumulative Average:</Highlight>
-          85.55%
+          85.63%
         </Body>
         <Body
           display="flex"
@@ -26,7 +29,7 @@ const Education: React.FC<EducationProps> = boxProps => {
           alignItems="baseline"
         >
           <Highlight>Faculty Average:</Highlight>
-          85.55%
+          87.27%
         </Body>
       </Box>
     </Box>
