@@ -2,10 +2,10 @@ import React from 'react';
 import Box from 'components/Box';
 import DoublePica from 'components/text/DoublePica';
 
-import Cognite from './sections/Cognite';
-import IBM from './sections/IBM';
-import Massy from './sections/Massy';
-import Teleios from './sections/Teleios';
+import Cognite from './Cognite';
+import IBM from './IBM';
+import Massy from './Massy';
+import Teleios from './Teleios';
 
 const Experience = () => {
   return (
