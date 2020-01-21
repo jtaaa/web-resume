@@ -4,8 +4,9 @@ import Box from 'components/Box';
 const DoublePica = styled(Box)``;
 
 DoublePica.defaultProps = {
-  fontSize: [4, 5, 6],
-  lineHeight: [4, 5, 6],
+  fontSize: 3,
+  lineHeight: 3,
+  fontWeight: 'bold',
 };
 
 export default DoublePica;

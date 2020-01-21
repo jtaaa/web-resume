@@ -1,11 +1,14 @@
 import styled from 'styled-components/macro';
 import Box from 'components/Box';
 
-const GreatPrimer = styled(Box)``;
+const GreatPrimer = styled(Box)`
+  text-transform: uppercase;
+`;
 
 GreatPrimer.defaultProps = {
-  fontSize: [3, 4, 5],
-  lineHeight: [3, 4, 5],
+  fontSize: 2,
+  lineHeight: 2,
+  letterSpacing: '1px',
 };
 
 export default GreatPrimer;

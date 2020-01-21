@@ -10,16 +10,16 @@ const Header = () => {
       <Canon>Joshua Allum</Canon>
       <Box display="flex" justifyContent="center">
         <ExternalLink href="https://jallum.xyz/">jallum.xyz</ExternalLink>
-        <ExternalLink pl={3} href="mailto:joshuatallum@gmail.com">
+        <ExternalLink ml={3} href="mailto:joshuatallum@gmail.com">
           joshuatallum
         </ExternalLink>
-        <ExternalLink pl={3} href="tel:+16477814107">
+        <ExternalLink ml={3} href="tel:+16477814107">
           647-781-4107
         </ExternalLink>
       </Box>
       <Box display="flex" justifyContent="center">
         <ExternalLink href="https://github.com/jtaaa">jtaaa</ExternalLink>
-        <ExternalLink pl={3} href="https://linkedin.com/in/joshua-allum/">
+        <ExternalLink ml={3} href="https://linkedin.com/in/joshua-allum/">
           joshua-allum
         </ExternalLink>
       </Box>
