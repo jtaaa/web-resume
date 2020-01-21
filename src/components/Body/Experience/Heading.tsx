@@ -18,7 +18,9 @@ const Heading = ({ company, period, role, logoSrc, logoAlt }: HeadingProps) => {
       <Box flex={1}>
         <Box display="flex" alignItems="baseline">
           <DoublePica>{company}</DoublePica>
-          <Body ml={2}>{period}</Body>
+          <Body ml={2} fontSize={0}>
+            {period}
+          </Body>
         </Box>
         <GreatPrimer>{role}</GreatPrimer>
       </Box>

@@ -26,7 +26,7 @@ const space = [0, 4, 8, 16, 32, 64, 128, 256, 512];
 
 //--> FontSizes
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-const fontSizes: any = [10, 11, 12, 14, 16, 20, 24, 32, 48];
+const fontSizes: any = [10, 11, 12, 14, 18, 20, 24, 32, 48];
 
 // aliases
 fontSizes.S = fontSizes[0];
@@ -43,7 +43,7 @@ const lineHeights: any = [
   '15px',
   '16px',
   '18px',
-  '20px',
+  '22px',
   '24px',
   '28px',
   '36px',

@@ -14,7 +14,9 @@ const Heading = ({ title, techStack, year }: HeadingProps) => {
     <Box display="flex" alignItems="baseline" justifyContent="space-between">
       <Box display="flex" alignItems="baseline">
         <DoublePica>{title}</DoublePica>
-        <Body ml={2}>{techStack}</Body>
+        <Body ml={2} fontSize={0}>
+          {techStack}
+        </Body>
       </Box>
       <GreatPrimer>{year}</GreatPrimer>
     </Box>
