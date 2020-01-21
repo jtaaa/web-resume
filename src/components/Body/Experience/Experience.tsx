@@ -15,7 +15,7 @@ const Experience: React.FC<ExperienceProps> = boxProps => {
       <Cognite />
       <IBM />
       <Massy />
-      <Teleios />
+      {/* <Teleios /> */}
     </Box>
   );
 };
