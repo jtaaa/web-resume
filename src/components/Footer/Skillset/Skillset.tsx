@@ -9,7 +9,9 @@ const Skillset: React.FC<SkillsetProps> = boxProps => {
     <Box {...boxProps}>
       <Trafalgar>Skillset</Trafalgar>
       <Box>
-        <DoublePica>3+ years experience and shipped product(s)</DoublePica>
+        <DoublePica fontSize={2}>
+          3+ years experience and shipped product(s)
+        </DoublePica>
       </Box>
     </Box>
   );
