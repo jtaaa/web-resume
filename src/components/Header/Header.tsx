@@ -1,10 +1,11 @@
 import React from 'react';
 import { HeaderContainer } from './elements';
+import Canon from 'components/text/Canon';
 
 const Header = () => {
   return (
     <HeaderContainer>
-      <h1>Joshua Allum</h1>
+      <Canon>Joshua Allum</Canon>
     </HeaderContainer>
   );
 };
