@@ -20,7 +20,7 @@ const Heading: React.FC<HeadingProps> = ({
   logoAlt,
 }) => {
   return (
-    <Box display="flex" alignItems="center" mt={1}>
+    <Box display="flex" alignItems="center" pt={1}>
       <Box flex={1}>
         <Box display="flex" alignItems="baseline">
           <DoublePica>{company}</DoublePica>

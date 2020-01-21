@@ -8,7 +8,7 @@ const Body = () => {
   return (
     <Box>
       <Experience />
-      <Projects />
+      <Projects pt={1} />
     </Box>
   );
 };
