@@ -1,7 +1,6 @@
 import { createGlobalStyle } from 'styled-components/macro';
 
 const GlobalStyle = createGlobalStyle`
-  @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
 /* Button Normalization */
 /**
   * 1. Change the font styles in all browsers.
