@@ -17,11 +17,12 @@ const Cognite = () => {
         logoAlt="Cognite AS logo"
       />
       <Body>
-        • Worked daily on front-end of production application{' '}
+        • Worked daily on front-end of{' '}
         <ExternalLink href="https://insight.cogniteapp.com/">
           Asset Data Insight
         </ExternalLink>{' '}
-        with monthly sprints and rollouts.
+        application, writing high performance, re-useable code with monthly
+        sprints and rollouts.
       </Body>
       <Body>
         • Implemented{' '}
