@@ -18,7 +18,7 @@ const Cognite = () => {
       />
       <Body>
         • Worked daily on front-end of{' '}
-        <ExternalLink href="https://insight.cogniteapp.com/">
+        <ExternalLink href="https://www.cognite.com/business-applications/asset-data-insight">
           Asset Data Insight
         </ExternalLink>{' '}
         application, writing high performance, re-useable code with monthly
@@ -28,7 +28,7 @@ const Cognite = () => {
         • Implemented{' '}
         <Highlight>design curve overlays on scatterplots</Highlight> with option
         to upload CSV or manually enter X-Y pairs, solving company-wide{' '}
-        <ExternalLink href="https://www.enggcyclopedia.com/2011/09/pump-performance-curves/">
+        <ExternalLink href="https://www.enggcyclopedia.com/2011/09/pump-performance-curves">
           pump performance curve
         </ExternalLink>{' '}
         use case.
