@@ -3,7 +3,7 @@ import Box from 'components/Box';
 
 export const HeaderContainer = styled(Box)``;
 HeaderContainer.defaultProps = {
-  pb: 4,
+  pb: 3,
 };
 
 export const LinksGrid = styled(Box)`
