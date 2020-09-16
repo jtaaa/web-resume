@@ -16,14 +16,14 @@ const IBM = () => {
         logoAlt="IBM logo"
       />
       <Body>
-        • <Highlight>Unified and secured</Highlight> user sign-in experience
-        across full range of internal microservices by implementing an{' '}
-        <Highlight>OAuth2 Central Authentication System (CAS).</Highlight>
+        • <Highlight>Unified and secured</Highlight> sign-in experience across
+        full range of internal microservices by implementing an{' '}
+        <Highlight>OAuth2 Central Authentication System.</Highlight>
       </Body>
       <Body>
         • <Highlight>Optimized page load time</Highlight> and{' '}
         <Highlight>caching strategy</Highlight> for Client Management Tool, used
-        by all Account Managers.
+        by all Technical Account Managers.
       </Body>
       <Body>
         • Drove task management/recording tool, both{' '}

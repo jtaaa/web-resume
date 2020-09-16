@@ -16,7 +16,7 @@ const Header = () => {
     <HeaderContainer display="flex" alignItems="center">
       <Canon>Joshua Allum</Canon>
       <LinksGrid flex={1}>
-        <ExternalLink href="https://jallum.xyz/">
+        <ExternalLink href="https://jallum.xyz">
           <Box display="flex" alignItems="center">
             <img height={11} src={Globe} alt="Globe" />
             <Body ml={1}>jallum.xyz</Body>
@@ -34,14 +34,19 @@ const Header = () => {
             <Body ml={1}>647-781-4107</Body>
           </Box>
         </ExternalLink>
-        <div />
+        <ExternalLink href="https://github.com/jtaaa/web-resume">
+          <Box display="flex" alignItems="center">
+            <img height={11} src={Github} alt="GitHub" />
+            <Body ml={1}>résumé source repo</Body>
+          </Box>
+        </ExternalLink>
         <ExternalLink ml={3} href="https://github.com/jtaaa">
           <Box display="flex" alignItems="center">
-            <img height={11} src={Github} alt="Github" />
+            <img height={11} src={Github} alt="GitHub" />
             <Body ml={1}>jtaaa</Body>
           </Box>
         </ExternalLink>
-        <ExternalLink ml={3} href="https://linkedin.com/in/joshua-allum/">
+        <ExternalLink ml={3} href="https://linkedin.com/in/joshua-allum">
           <Box display="flex" alignItems="center">
             <img height={11} src={LinkedIn} alt="LinkedIn" />
             <Body ml={1}>joshua-allum</Body>

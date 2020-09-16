@@ -9,10 +9,9 @@ const CVDRiskCalculator = () => {
   return (
     <Box>
       <Heading
-        title="Cadiovascular Disease Risk Calculator"
+        title="Cardiovascular Disease Risk Calculator"
         techStack="NodeJS, React, JavaScript"
         year="2018"
-        href="https://github.com/jtaaa/CVD-Risk-Calculator-Backend"
       />
       <Body>
         • Collaborated with Prof. Amalia Hosein of{' '}
@@ -22,8 +21,8 @@ const CVDRiskCalculator = () => {
         as part of her doctorate thesis.
       </Body>
       <Body>
-        • Implemented Prof. Hosein&apos;s{' '}
-        <Highlight>risk calculation algorithm</Highlight> in NodeJS API and
+        • Implemented Prof. Hosein&apos;s proprietary{' '}
+        <Highlight>risk calculation algorithm</Highlight> with NodeJS API and
         developed{' '}
         <ExternalLink href="https://github.com/jtaaa/CVD-Risk-Calculator-Frontend">
           POC React web app

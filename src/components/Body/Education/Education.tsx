@@ -12,7 +12,7 @@ const Education: React.FC<EducationProps> = boxProps => {
       <Trafalgar>Education</Trafalgar>
       <Box>
         <DoublePica pt={1}>Honours Computer Science Co-op</DoublePica>
-        <Body fontSize={2}>University of Waterloo, expected Winter 2021</Body>
+        <Body fontSize={2}>University of Waterloo, expected August 2021</Body>
         <Body
           display="flex"
           justifyContent="space-between"

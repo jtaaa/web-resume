@@ -9,14 +9,14 @@ const TTMobileDelivery = () => {
     <Box>
       <Heading
         title="T&T Mobile Delivery"
-        techStack="React, TypeScript, Styled-Components, Storybook, Firebase"
+        techStack="React, TypeScript, styled-components, Storybook, Firebase"
         year="2019"
         href="https://github.com/SYSTT/tntmobiledelivery"
       />
       <Body>
         • <Highlight>Developed</Highlight> and <Highlight>launched</Highlight>{' '}
         solution to allow users to buy and trade iPhones safely, quickly and
-        easily in T&T.
+        easily in Trinidad and Tobago.
       </Body>
     </Box>
   );

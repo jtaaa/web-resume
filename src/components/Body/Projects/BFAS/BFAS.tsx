@@ -15,9 +15,9 @@ const BFAS = () => {
         href="https://github.com/uwblueprint/bestfriends-backend"
       />
       <Body>
-        • Developed dog image quality ensurance app since image quality heavily
+        • Developed dog image quality assurance app since image quality heavily
         influences adoption rate at{' '}
-        <ExternalLink href="https://bestfriends.org/">BFAS</ExternalLink>.
+        <ExternalLink href="https://bestfriends.org">BFAS</ExternalLink>.
       </Body>
       <Body>
         • <Highlight>Detected and classified</Highlight> dogs and{' '}
@@ -26,8 +26,7 @@ const BFAS = () => {
       </Body>
       <Body>
         • Utilized scikit-image and OpenCV to{' '}
-        <Highlight>detect and filter dim and blurry</Highlight> images
-        respectively.
+        <Highlight>detect and filter dim and blurry</Highlight> images.
       </Body>
     </Box>
   );

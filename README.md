@@ -1,6 +1,6 @@
 # My Résumé
 
-Last updated during the **Winter 2020** term.
+Last updated during the **Fall 2020** term.
 
 ## Technical Details
 

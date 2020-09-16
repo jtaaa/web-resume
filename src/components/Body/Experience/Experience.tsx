@@ -2,6 +2,7 @@ import React from 'react';
 import Box, { BoxProps } from 'components/Box';
 import Trafalgar from 'components/text/Trafalgar';
 
+import SellYourStuff from './SellYourStuff';
 import Cognite from './Cognite';
 import IBM from './IBM';
 import Massy from './Massy';
@@ -12,6 +13,7 @@ const Experience: React.FC<ExperienceProps> = boxProps => {
   return (
     <Box {...boxProps}>
       <Trafalgar>Work Experience</Trafalgar>
+      <SellYourStuff />
       <Cognite />
       <IBM />
       <Massy />
