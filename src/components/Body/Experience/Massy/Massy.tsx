@@ -4,7 +4,7 @@ import Heading from '../Heading';
 import MassyLogo from './massy-logo.png';
 import Body from 'components/text/Body';
 import Highlight from 'components/text/Highlight';
-import ExternalLink from 'components/ExternalLink';
+// import ExternalLink from 'components/ExternalLink';
 
 const Massy = () => {
   return (
@@ -16,14 +16,14 @@ const Massy = () => {
         logoSrc={MassyLogo}
         logoAlt="Massy Technologies InfoCom logo"
       />
-      <Body>
+      {/* <Body>
         • Created InvioBox, a convenient DropBox-like service that will be
         available in{' '}
         <ExternalLink href="https://myinviocloud.com/about-invio-cloud/">
           InvioCloud
         </ExternalLink>{' '}
         packages, Massy&apos;s Cloud Computing offering.
-      </Body>
+      </Body> */}
       <Body>
         • Constructed data pipelines using{' '}
         <Highlight>Market Basket Analysis</Highlight> and{' '}
