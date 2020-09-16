@@ -17,7 +17,7 @@ const BFAS = () => {
       <Body>
         • Developed dog image quality assurance app since image quality heavily
         influences adoption rate at{' '}
-        <ExternalLink href="https://bestfriends.org/">BFAS</ExternalLink>.
+        <ExternalLink href="https://bestfriends.org">BFAS</ExternalLink>.
       </Body>
       <Body>
         • <Highlight>Detected and classified</Highlight> dogs and{' '}
