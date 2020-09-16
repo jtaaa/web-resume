@@ -11,19 +11,20 @@ const Skillset: React.FC<SkillsetProps> = boxProps => {
       <Trafalgar>Skillset</Trafalgar>
       <Box>
         <DoublePica fontSize={3} pt={1}>
-          3+ years experience & shipped product
+          3+ years experience & shipped products
         </DoublePica>
         <Body fontSize={2} textAlign="center">
-          TypeScript, JavaScript (ES6+), React, Storybook, styled-components,
-          testing-library, testcafe, React-Native, Angular, HTML5, CSS3, Git,
-          NodeJS, MongoDB, Firebase, Docker, LaTeX
+          TypeScript, JavaScript (ES6+), React, Storybook, testing-library,
+          testcafe, TravisCI, React-Native, Angular, HTML5, CSS3, Git, Node.js,
+          Express, MongoDB, Firebase, GCP, Docker, LaTeX
         </Body>
         <DoublePica fontSize={3} pt={1}>
           Some experience & comfortable with
         </DoublePica>
         <Body fontSize={2} textAlign="center">
-          C++, C#, .NET, webpack, SQL, PostgreSQL, GCP, AWS, Nginx, R, Python,
-          Flask, Plotly, Matplotlib, Numpy, Pandas, OpenCV, scikit-image
+          Next.js, webpack, GraphQL, Apollo, Jenkins, AWS, Nginx, C++, C#, .NET,
+          SQL, PostgreSQL, R, Python, Flask, Plotly, Matplotlib, Numpy, Pandas,
+          OpenCV
         </Body>
       </Box>
     </Box>
