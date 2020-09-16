@@ -16,7 +16,7 @@ const TTMobileDelivery = () => {
       <Body>
         • <Highlight>Developed</Highlight> and <Highlight>launched</Highlight>{' '}
         solution to allow users to buy and trade iPhones safely, quickly and
-        easily in T&T.
+        easily in Trinidad and Tobago.
       </Body>
     </Box>
   );
