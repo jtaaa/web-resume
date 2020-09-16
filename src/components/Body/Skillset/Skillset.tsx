@@ -14,7 +14,7 @@ const Skillset: React.FC<SkillsetProps> = boxProps => {
           3+ years experience & shipped product
         </DoublePica>
         <Body fontSize={2} textAlign="center">
-          TypeScript, JavaScript (ES6+), React, Storybook, Styled-Components,
+          TypeScript, JavaScript (ES6+), React, Storybook, styled-components,
           testing-library, testcafe, React-Native, Angular, HTML5, CSS3, Git,
           NodeJS, MongoDB, Firebase, Docker, LaTeX
         </Body>

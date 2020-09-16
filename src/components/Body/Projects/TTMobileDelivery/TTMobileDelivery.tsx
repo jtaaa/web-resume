@@ -9,7 +9,7 @@ const TTMobileDelivery = () => {
     <Box>
       <Heading
         title="T&T Mobile Delivery"
-        techStack="React, TypeScript, Styled-Components, Storybook, Firebase"
+        techStack="React, TypeScript, styled-components, Storybook, Firebase"
         year="2019"
         href="https://github.com/SYSTT/tntmobiledelivery"
       />
