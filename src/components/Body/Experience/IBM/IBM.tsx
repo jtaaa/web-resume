@@ -23,7 +23,7 @@ const IBM = () => {
       <Body>
         • <Highlight>Optimized page load time</Highlight> and{' '}
         <Highlight>caching strategy</Highlight> for Client Management Tool, used
-        by all Account Managers.
+        by all Technical Account Managers.
       </Body>
       <Body>
         • Drove task management/recording tool, both{' '}
