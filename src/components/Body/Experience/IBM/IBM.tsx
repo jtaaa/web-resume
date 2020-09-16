@@ -4,6 +4,7 @@ import Heading from '../Heading';
 import IBMLogo from './ibm-logo.svg';
 import Highlight from 'components/text/Highlight';
 import Body from 'components/text/Body';
+import ExternalLink from 'components/ExternalLink';
 
 const IBM = () => {
   return (
@@ -21,9 +22,12 @@ const IBM = () => {
         <Highlight>OAuth2 Central Authentication System.</Highlight>
       </Body>
       <Body>
-        • <Highlight>Optimized page load time</Highlight> and{' '}
-        <Highlight>caching strategy</Highlight> for Client Management Tool, used
-        by all Technical Account Managers.
+        •{' '}
+        <ExternalLink href="https://docs.google.com/document/d/1dWUIDsqhAlLckbYv0UuvNjSVnPTHtwYG0zfecjwDPAU/edit?usp=sharing">
+          <Highlight>Optimized page load time</Highlight> and{' '}
+          <Highlight>caching strategy</Highlight>
+        </ExternalLink>{' '}
+        for Client Management Tool, used by all Technical Account Managers.
       </Body>
       <Body>
         • Drove task management/recording tool, both{' '}
