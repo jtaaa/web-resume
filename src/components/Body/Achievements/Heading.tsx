@@ -4,7 +4,7 @@ import GreatPrimer from 'components/text/GreatPrimer';
 import DoublePica from 'components/text/DoublePica';
 
 type HeadingProps = {
-  title: string;
+  title: React.ReactNode;
   year: string;
 };
 const Heading: React.FC<HeadingProps> = ({ title, year }) => {
