@@ -15,7 +15,7 @@ const BFAS = () => {
         href="https://github.com/uwblueprint/bestfriends-backend"
       />
       <Body>
-        • Developed dog image quality ensurance app since image quality heavily
+        • Developed dog image quality assurance app since image quality heavily
         influences adoption rate at{' '}
         <ExternalLink href="https://bestfriends.org/">BFAS</ExternalLink>.
       </Body>
