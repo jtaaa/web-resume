@@ -22,7 +22,7 @@ const Skillset: React.FC<SkillsetProps> = boxProps => {
           Some experience & comfortable with
         </DoublePica>
         <Body fontSize={2} textAlign="center">
-          Next.js, webpack, GraphQL, Apollo, Jenkins, AWS, Nginx, C++, C#, .NET,
+          Next.js, webpack, GraphQL, Apollo, Jenkins, AWS, nginx, C++, C#, .NET,
           SQL, PostgreSQL, R, Python, Flask, Plotly, Matplotlib, Numpy, Pandas,
           OpenCV
         </Body>
