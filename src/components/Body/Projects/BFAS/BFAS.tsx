@@ -26,8 +26,7 @@ const BFAS = () => {
       </Body>
       <Body>
         • Utilized scikit-image and OpenCV to{' '}
-        <Highlight>detect and filter dim and blurry</Highlight> images
-        respectively.
+        <Highlight>detect and filter dim and blurry</Highlight> images.
       </Body>
     </Box>
   );
