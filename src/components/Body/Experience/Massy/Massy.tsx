@@ -33,9 +33,8 @@ const Massy = () => {
         <Highlight>recommend items</Highlight>.
       </Body>
       <Body>
-        • Produced statistics and tangible metrics of inter-branch performance
-        based on large datasets (several GB) of transactions using Pandas,
-        Plotly, and Watson.
+        • Produced tangible metrics of inter-branch performance based on large
+        datasets (several GB) of transactions using Pandas, Plotly, and Watson.
       </Body>
     </Box>
   );
