@@ -37,7 +37,7 @@ const Header = () => {
         <ExternalLink href="https://github.com/jtaaa/web-resume">
           <Box display="flex" alignItems="center">
             <img height={11} src={Github} alt="GitHub" />
-            <Body ml={1}>résumé source repo</Body>
+            <Body ml={1}>jtaaa/web-resume</Body>
           </Box>
         </ExternalLink>
         <ExternalLink ml={3} href="https://github.com/jtaaa">
