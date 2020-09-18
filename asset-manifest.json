@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "/web-resume/static/js/main.8bc6636b.chunk.js",
-    "main.js.map": "/web-resume/static/js/main.8bc6636b.chunk.js.map",
+    "main.js": "/web-resume/static/js/main.11203020.chunk.js",
+    "main.js.map": "/web-resume/static/js/main.11203020.chunk.js.map",
     "runtime-main.js": "/web-resume/static/js/runtime-main.0a7ded6f.js",
     "runtime-main.js.map": "/web-resume/static/js/runtime-main.0a7ded6f.js.map",
     "static/js/2.d18d3be3.chunk.js": "/web-resume/static/js/2.d18d3be3.chunk.js",
     "static/js/2.d18d3be3.chunk.js.map": "/web-resume/static/js/2.d18d3be3.chunk.js.map",
     "index.html": "/web-resume/index.html",
-    "precache-manifest.273708b2c89041e1ca712304f1cf4910.js": "/web-resume/precache-manifest.273708b2c89041e1ca712304f1cf4910.js",
+    "precache-manifest.a8decb6aa71752da97cb1e8b96d6536b.js": "/web-resume/precache-manifest.a8decb6aa71752da97cb1e8b96d6536b.js",
     "service-worker.js": "/web-resume/service-worker.js",
     "static/js/2.d18d3be3.chunk.js.LICENSE.txt": "/web-resume/static/js/2.d18d3be3.chunk.js.LICENSE.txt",
     "static/media/Email.svg": "/web-resume/static/media/Email.4082623a.svg",
@@ -23,6 +23,6 @@
   "entrypoints": [
     "static/js/runtime-main.0a7ded6f.js",
     "static/js/2.d18d3be3.chunk.js",
-    "static/js/main.8bc6636b.chunk.js"
+    "static/js/main.11203020.chunk.js"
   ]
 }
