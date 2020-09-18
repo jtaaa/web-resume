@@ -28,10 +28,10 @@ const Header = () => {
             <Body ml={1}>joshuatallum</Body>
           </Box>
         </ExternalLink>
-        <ExternalLink ml={3} href="tel:+16477814107">
+        <ExternalLink ml={3} href="tel:+18684981026">
           <Box display="flex" alignItems="center">
             <img height={11} src={Phone} alt="Phone" />
-            <Body ml={1}>647-781-4107</Body>
+            <Body ml={1}>868-498-1026</Body>
           </Box>
         </ExternalLink>
         <ExternalLink href="https://github.com/jtaaa/web-resume">
